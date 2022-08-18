@@ -67,7 +67,7 @@ The following code can be interpreted more accurately as:
     bar() // ReferenceError
     
     foo = function () { 
-	   var bar = ...self... 
+       var bar = ...self... 
        console.log("hi")
     }
  
@@ -80,11 +80,11 @@ The following code can be interpreted more accurately as:
     
     // This expression is ignored though is declared before, as the foo called before the expression
     foo = function() { 
-    	console.log(2)
+       console.log(2)
     }
     
     function foo() { 
-    	console.log(1) 
+       console.log(1) 
     } 
 
 
