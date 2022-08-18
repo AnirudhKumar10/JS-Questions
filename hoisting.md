@@ -30,7 +30,7 @@ In this example the JS engine does not throws any error as it aware of the varia
  
  <br />
  
- **let** & **const**  are also hoisted but intialized with any value and throws error. The variables are to be **temporal deadzone**, i.e, cannot access them untill intialized.
+ **let** & **const**  are also hoisted but not intialized with any value and throws error. The variables are said to be in **temporal deadzone**, i.e, cannot access them untill intialized.
 
     console.log(a); // ReferenceError
     
