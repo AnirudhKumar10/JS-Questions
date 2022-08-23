@@ -61,10 +61,10 @@ Let's try another example,
     
     {
     	var a = 20
-    	console.log(a)  // 10
+    	console.log(a)  // 20
     }
     
-    console.log(a) // 10
+    console.log(a) // 20
 
 Do you think here 10 will be printed twice ? No,  20 is printed twice over here. But why ? The variable **a** defined inside the block shadows variable a defined at line 1. So, lets understand that variable declared with `var` is local **scoped** or **global** scoped.
 
