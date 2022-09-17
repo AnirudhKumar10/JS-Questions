@@ -57,4 +57,4 @@ Refer the images below and try running the code, observe callstack and value of 
 
 ![broken_image](./assets/img/async_03.png)
 
-Notice how the foo is loaded again after the completion, Also try attaching the **`onButtonClick`** function to button and observe the value of **`a`** being by the setTimeout's callback function.
+Notice how the **`foo`** is loaded again after the completion, thats how event loop works, Also try attaching the **`onButtonClick`** function to button and observe the value of **`a`** being by the setTimeout's callback function.
